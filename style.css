@@ -1,0 +1,258 @@
+.container{
+    background-color: black;
+    height: 100vh;
+    width: 98vw;
+    /* padding: 10px; */
+}
+
+.header {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 5px 0px 5px 0px;
+
+}
+
+.header-left {
+    width: auto;
+    height: auto;
+    display: flex;
+    padding: 0, 0, 0, 0;
+}
+.header-left >img{
+    margin-left: 10px;
+    height: 59px;
+    width:59px;
+}
+.header-left > h1{
+    color: #195932;
+    font-size: 50px;
+    margin-left: 10px;
+}
+.header-middle {
+    flex-grow: 1;
+}
+.header-right {
+    width: auto;
+    height: auto;
+    display: flex;
+    padding: 0px, 0px, 0px, 0px;
+    justify-content: flex-end;   
+    align-items: center;
+}
+.header-right > a > img{
+    /* margin-right: 10px; */
+    height: 25px;
+    /* width:auto; */
+}
+
+.header-right > a {
+    padding: 0px 10px 0px 0px;
+    text-decoration: none;
+    color: #195932
+}
+        /* unvisited link */
+        .header-right > a:link {
+            text-decoration: none;
+            color: #195932
+        }
+
+        /* visited link */
+        .header-right > a:visited {
+            text-decoration: none;
+            color: #195932
+        }
+
+        /* mouse over link */
+        .header-right > a:hover {
+            text-decoration: none;
+            color: #2b2d31
+        }
+
+        /* selected link */
+        .header-right > a:active {
+        color: #2b2d31;
+        background-color: #195932;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center
+        }
+
+.nav-bar {
+    background-color: #195932;
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+
+}
+.nav-bar > a {
+    text-decoration: none;
+    color: white
+}
+
+        /* unvisited link */
+        .nav-bar > a:link {
+            text-decoration: none;
+            color: white
+        }
+
+        /* visited link */
+        .nav-bar > a:visited {
+            text-decoration: none;
+            color: white
+        }
+
+        /* mouse over link */
+        .nav-bar > a:hover {
+            text-decoration: none;
+            color: #2b2d31
+        }
+
+        /* selected link */
+        .nav-bar > a:active {
+        color: #195932;
+        background-color: #2b2d31;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center
+        }
+
+.middle {
+    background-color: #2b2d31;
+    width: auto;
+    height: 80%;
+    display: flex
+
+}
+
+.side-bar {
+    background-color: #2b2d31;
+    width: auto;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 10px 0px 10px;
+
+}
+
+.side-bar > a {
+    text-decoration: none;
+    color: white
+}
+        /* unvisited link */
+        .side-bar > a:link {
+            text-decoration: none;
+            /* color: #195932 */
+        }
+
+        /* visited link */
+        .side-bar > a:visited {
+            text-decoration: none;
+            /* color: #195932 */
+        }
+
+        /* mouse over link */
+        .side-bar > a:hover {
+            text-decoration: none;
+            color: #195932
+        }
+
+        /* selected link */
+        .side-bar > a:active {
+        color: #2b2d31;
+        background-color: #195932;
+        width: 66%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center
+        }
+
+.main-area {
+    background-color: white;
+    width: 80%;
+    height: 100%;
+    padding: 0px 10px 0px 10px;
+    overflow-y: scroll
+
+}
+
+.footer {
+    background: #195932;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px 10px 0px;
+}
+.footer > a {
+    text-decoration: none;
+    color: white;
+    font-size: 11px
+}
+
+        /* unvisited link */
+        .footer > a:link {
+            text-decoration: none;
+            color: white
+        }
+
+        /* visited link */
+        .footer > a:visited {
+            text-decoration: none;
+            color: white
+        }
+
+        /* mouse over link */
+        .footer > a:hover {
+            text-decoration: none;
+            color: #2b2d31
+        }
+
+        /* selected link */
+        .footer > a:active {
+        color: #195932;
+        background-color: #2b2d31;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center
+        }
+
+h1 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=textarea] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:#195932;
+    color: white; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
